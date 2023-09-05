@@ -31,10 +31,6 @@ exports.sendMessage = async (req, res, next) => {
         text: "Waalikum Salam",
       });
     }
-
-
-
-
     res.status(200).json(
       responseSuccessWithData({
 
